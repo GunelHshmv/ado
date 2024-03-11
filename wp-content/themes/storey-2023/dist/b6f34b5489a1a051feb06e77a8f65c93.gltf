@@ -1,0 +1,331 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v3.8.0",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 5730
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 957,
+      "max": [
+        0.15837687253952026,
+        0.0725446343421936,
+        -0.000004656147211790085
+      ],
+      "min": [
+        0.006045982241630554,
+        -0.04847952350974083,
+        -0.005369664169847965
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 957
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 198
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 66,
+      "max": [
+        1,
+        0,
+        1
+      ],
+      "min": [
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 66
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 6
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        1,
+        0,
+        1
+      ],
+      "min": [
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 4
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 4
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 6886
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6886,
+      "byteLength": 487
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7373,
+      "byteLength": 168
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "sampler": 0
+    }
+  ],
+  "images": [
+    {
+      "name": "IMG_8621 1",
+      "mimeType": "image/jpeg",
+      "uri": "../assets/media/models/IMG_8621%201.jpg"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "../assets/media/models/storey.bin",
+      "byteLength": 7541
+    }
+  ],
+  "materials": [
+    {
+      "name": "Blue",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0.21223075687885284,
+          0.4019777774810791,
+          1
+        ],
+        "roughnessFactor": 0.4000000059604645,
+        "metallicFactor": 0
+      }
+    },
+    {
+      "name": "White",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1
+        ],
+        "roughnessFactor": 0.5,
+        "metallicFactor": 0
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Image",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 0
+        }
+      },
+      "emissiveFactor": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "emissiveTexture": {
+        "index": 0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Triangle",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Plane",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 3,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 1,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Image",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 7,
+            "NORMAL": 8,
+            "TEXCOORD_0": 9
+          },
+          "mode": 4,
+          "material": 2,
+          "indices": 6,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 2,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Triangle",
+      "translation": [
+        -0.007442386820912361,
+        -0.006292033940553665,
+        0.005234097130596638
+      ],
+      "scale": [
+        0.6567898392677307,
+        0.6567898392677307,
+        0.6567898392677307
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "Plane",
+      "translation": [
+        0,
+        0,
+        -0.002433446468785405
+      ],
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        -0.22155147790908813,
+        -0.17733021080493927,
+        -0.1660221964120865
+      ],
+      "mesh": 1
+    },
+    {
+      "name": "Image",
+      "translation": [
+        -0.007180459797382355,
+        -0.0008447599830105901,
+        -0.014417149126529694
+      ],
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.09764903038740158,
+        0.10462584346532822,
+        0.06565821915864944
+      ],
+      "mesh": 2
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ]
+}
